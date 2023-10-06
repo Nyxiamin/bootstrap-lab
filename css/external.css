@@ -1,0 +1,358 @@
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; 
+}
+
+header {
+    background-color: #6E8894; 
+    color: #f5f5f5;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0px 1px 16px 11px rgba(14, 9, 9, 0.1);
+}
+
+
+p {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+a{
+    color: #f5f5f5;
+}
+
+/* New styles for the first section of information */
+
+.first-section {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    background-color: #A13D63;
+    color: #f5f5f5;
+}
+
+.first-section div{
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.first-section img {
+    max-width: 50%;
+    height: auto;
+}
+
+.first-section h3{
+    text-align: center;
+}
+
+
+.signup-btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #CEEDDB; 
+    color: #A13D63;
+    border-radius: 5px;
+    margin: 35%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+/* New styles for the feature section */
+
+.feature-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.feature {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #85baa1;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #CEEDDB;
+    box-shadow: 0px 0px 30px 10px rgba(13, 16, 40, 0.1);
+}
+
+.feature img {
+    max-width: 20%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.feature-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #6E8894;
+    color: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* New styles for the double-row section */
+
+.double-row-section {
+    display: flex;
+    flex-direction: column;
+    padding-left:20%;
+    padding-right: 20%;
+    background-color: #EE936F;
+    color: #f5f5f5;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.description {
+    width: 50%;
+    font-size: larger;
+    text-align: center;
+
+}
+
+.row img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.row #reverse {
+    flex-direction: row-reverse; 
+}
+
+/* New styles for the people section */
+
+.people-section {
+    display: flex;
+    padding: 5%;
+    padding-top: 0%;
+}
+
+.people-headline{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #a13d63;
+    font-size: 50px;
+    margin-block-end: 0;
+}
+
+.person {
+    display: block;
+    width: 30%; 
+    border-width: 1px;
+    border-color: #a13d63;
+    border-style:solid;
+    margin:10px;
+}
+
+.person img {
+    border-radius: 30px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.person h3 {
+    color: #a13d63;
+    display: flex;
+    margin: auto;
+    max-width: 60%;
+}
+
+.person p {
+    color: #6e8894; 
+    max-width: 60%;
+    display: flex;
+    margin: auto;
+}
+
+
+
+/* New styles for navigation bar */
+
+.navbar {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.logo h1 {
+    color: #f5f5f5;
+    margin: 0;
+    font-size: larger;
+}
+
+.menu-toggle {
+    display: none; 
+}
+
+.menu-toggle label {
+    font-size: 24px;
+    color: #f5f5f5;
+    cursor: pointer;
+    user-select: none;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-weight: bold;
+}
+
+
+/* New styles for the carousel */
+
+.carousel {
+    margin-top: 20px;
+}
+
+.carousel-indicators li {
+    background-color: #a13d63; 
+}
+
+.carousel-indicators .active {
+    background-color: #a13d63; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #6e8894; 
+    width: 30px;
+    height: 30px;
+}
+
+/* Bootstrap's default styles for carousel */
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+}
+
+/* New styles for carousel captions */
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(0%, 0%);
+    text-align: center;
+}
+
+.carousel-caption h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color:#a13d63; 
+}
+
+.carousel-caption p {
+    font-size: 1.5em;
+    color:#6e8894;
+}
+
+
+
+/* New styles for accordion */
+.accordion {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.card-header {
+    background-color: #0075a2; 
+    color: #f5f5f5;
+}
+
+.card-header button{
+    font-size: x-large;
+}
+
+.card-body {
+    background-color: #f4f4f4;
+    border-style: solid;
+    border-color: #CEEDDB;
+    font-size: larger;
+    color:#0075a2;
+}
+
+.accordion-headline{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #0075a2;
+    font-size: 50px;
+    margin-block-end: 0;
+}
+
+/* New styles for contact section */
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 5%;
+    background-color: #6e8894;
+    color:#f5f5f5;
+}
+
+.contact-form, .company-info {
+    width: 48%;
+}
+
+.contact-form h2, .company-info h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    margin-top: 20px;
+}
+
+.company-info{
+    padding: 5%;
+}
+
+.company-info p {
+    margin-bottom: 20px;
+}
+
+.company-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.company-info li {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/external.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Bootstrap CSS link -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> <!-- Popper.js -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> <!-- Bootstrap JS -->
+    <title>WellDaily - Your Daily Wellness Tracker</title>
+</head>
+
+<body>
+
+    <header>
+        <!--P2 Q1. Add responsive navigation bar at the top-->
+        <nav class="navbar">
+            <div class="logo">
+                <h1>WellDaily - Your Daily Wellness Tracker</h1>
+            </div>
+            <div class="menu-toggle">
+                <input type="checkbox" id="menu-btn">
+                <label for="menu-btn">&#9776;</label>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Wellness Tracker</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Meet the Team</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!--P1 Q1. Add the full main section of your page-->
+    <main>
+        <!--P1 Q2. A section that has: -->
+        <section class="first-section">
+            <div>
+                <br>
+                <br>
+                <!--a. A brief info about your website-->
+                <h2>Welcome to WellDaily</h2>
+                <p>Track your daily wellness activities, set goals, and cultivate a healthier lifestyle. 
+                    <br>Explore and discover the path to well-being!</p>
+                <h3>Ready to embark on your wellness journey?</h3>
+                <!--c. A button to sign up-->
+                <a href="#" class="signup-btn">Sign Up Now</a>
+            </div>
+            <!--b. An image-->
+            <img src="assets/images/motivation.jpeg" alt="Image representing wellness">
+        </section>
+
+        <!--P1 Q3. A section to create 3 separate div elements, each div has 4 contents: -->
+        <section class="feature-section">
+            <!-- Feature 1: Exercise Tracking -->
+            <div class="feature">
+                <!--a. A Symbol (Icon image)-->
+                <img src="assets/images/path-to-exercise-icon.png" alt="Exercise Icon">
+                <!--b. A Heading-->
+                <h3>Exercise Tracking</h3>
+                <!--c. A Paragraph-->
+                <p>Log your daily workouts and track your progress over time. Stay motivated with personalized fitness goals.</p>
+                <!--d. A button with any title you prefer-->
+                <a href="#" class="feature-btn">Get Moving</a>
+            </div>
+
+            <!-- Feature 2: Mindfulness Meditation -->
+            <div class="feature">
+                <img src="assets/images/path-to-meditation-icon.png" alt="Meditation Icon">
+                <h3>Mindfulness Meditation</h3>
+                <p>Incorporate mindfulness into your daily routine. Log meditation sessions and enhance your mental well-being.</p>
+                <a href="#" class="feature-btn">Start Meditating</a>
+            </div>
+
+            <!-- Feature 3: Hydration Reminder -->
+            <div class="feature">
+                <img src="assets/images/path-to-hydration-icon.png" alt="Hydration Icon">
+                <h3>Hydration Reminder</h3>
+                <p>Stay hydrated throughout the day by setting reminders. Track your water intake and improve your overall health.</p>
+                <a href="#" class="feature-btn">Stay Hydrated</a>
+            </div>
+        </section>
+
+        <!--P1 Q4. A section to that contains two div.row element, each div.row has two items: -->
+        <section class="double-row-section">
+            <!-- i. First Div.row : a description on the left with an image on the right -->
+            <div class="row">
+                <div class="description">
+                    <h3>Exercise Insights</h3>
+                    <p>Explore your exercise habits with detailed insights. 
+                        Gain valuable information to optimize your fitness routine and achieve your wellness goals. </p>
+                </div>
+                <img src="assets/images/wellness.jpg" alt="Image 1">
+            </div>
+
+            <!-- ii. Second Div.row : an image on the left with a description on the right -->
+            <div class="row" id="reverse">
+                <img src="assets/images/calm.jpg" alt="Image 2">
+                <div class="description">
+                    <h3>Mindful Moments Gallery</h3>
+                    <p>Immerse yourself in a gallery of mindful moments. 
+                        Experience tranquility through captivating images that inspire mindfulness and relaxation. 
+                        Let the gallery be a source of calm in your wellness journey.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--P1 Q5. A section for a people, employees, students, or any group relevant to your website content -->
+        <h2 class="people-headline"> Our Team </h2>
+        <!--a. 4 div for 4 people-->
+        <section class="people-section">
+            <!-- Person 1 -->
+            <div class="person">
+                <!--b. Each div has an image with a heading and a short paragraph-->
+                <img src="assets/images/person1.jpg" alt="Person 1">
+                <h3>John Doe</h3>
+                <p>Passionate fitness enthusiast and wellness advocate. John is dedicated to promoting a healthy and active lifestyle. Join him on the path to well-being!</p>
+            </div>
+
+            <!-- Person 2 -->
+            <div class="person">
+                <img src="assets/images/person2.jpg" alt="Person 2">
+                <h3>Jane Smith</h3>
+                <p>Yoga instructor and meditation guide. Jane believes in the power of mindfulness to enhance mental and physical wellness. Discover serenity with her guidance.</p>
+            </div>
+
+            <!-- Person 3 -->
+            <div class="person">
+                <img src="assets/images/person3.jpg" alt="Person 3">
+                <h3>Alex Johnson</h3>
+                <p>Health and nutrition expert. Alex is passionate about educating others on the importance of balanced nutrition for overall well-being. Learn from his expertise!</p>
+            </div>
+
+            <!-- Person 4 -->
+            <div class="person">
+                <img src="assets/images/person4.jpg" alt="Person 4">
+                <h3>Emily Davis</h3>
+                <p>Wellness coach and motivational speaker. Emily inspires individuals to set and achieve wellness goals. Let her uplifting words guide you on your journey.</p>
+            </div>
+        </section>
+
+         <!--P3 Q1. Add carousel content with navigation lines and left/right arrows -->
+         <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExample" data-slide-to="1"></li>
+                <li data-target="#carouselExample" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <!-- Carousel Item 1: Sport -->
+                <div class="carousel-item active">
+                    <img src="assets/images/carousel1.jpeg" class="d-block w-100" alt="Sport">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Elevate Your Wellness with Sport</h3>
+                        <p>Embrace the energy of movement and unleash the power within. Achieve your fitness goals and embrace a healthier you!</p>
+                    </div>
+                </div>
+
+                <!-- Carousel Item 2: Meditation -->
+                <div class="carousel-item">
+                    <img src="assets/images/carousel2.jpg" class="d-block w-100" alt="Meditation">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Discover Tranquility Through Meditation</h3>
+                        <p>Cultivate inner peace, reduce stress, and enhance your mental well-being. Take a moment to breathe, relax, and find balance.</p>
+                    </div>
+                </div>
+
+                <!-- Carousel Item 3: Drinking Healthy -->
+                <div class="carousel-item">
+                    <img src="assets/images/carousel3.jpg" class="d-block w-100" alt="Drinking Healthy">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Nourish Your Body with Healthy Drinks</h3>
+                        <p>Sip on refreshing, nutrient-packed drinks that fuel your vitality. Stay hydrated, stay healthy, and embrace the vibrant benefits of wholesome beverages.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <h2 class="accordion-headline"> Our principles </h2>
+
+         <!--P4 Q1. Add accordion contents with at least 4 heading and contents -->
+         <div class="accordion" id="accordionExample">
+            <!-- Accordion Item 1 -->
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Exercise Tips
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Explore a variety of exercise tips to elevate your fitness routine. <br> 
+                        From strength training to cardio workouts, discover expert advice to help you achieve your fitness goals.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Mindfulness Practices
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Embrace mindfulness in your daily life with a collection of practices. <br> 
+                        Learn meditation techniques, stress-relief exercises, and ways to bring calm and focus into your busy schedule.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Sleep Optimization
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Discover the importance of quality sleep and tips for optimizing your sleep routine.<br> 
+                        Learn about creating a restful environment, relaxation techniques, and establishing healthy sleep habits.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 4 -->
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Healthy Recipes
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        Delight your taste buds with nutritious and delicious recipes. <br> 
+                        From energizing breakfasts to wholesome dinners, find inspiration for meals that nourish your body and support your well-being.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--P5 Q1. Add Contact Section with 2 div elements: -->
+        <section class="contact-section">
+            <!-- a. Div1: Using Form content with any number of fields or controls you like -->
+            <div class="contact-form">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+            <!-- b. Div2: Using list or paragraph -->
+            <div class="company-info">
+                <h2>Our Company</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac urna vel mauris sollicitudin varius quis eu massa. <br>
+                    Nulla facilisi. Proin vestibulum urna vel odio consectetur, vel malesuada dui mattis.</p>
+                <ul>
+                    <li>Address: 123 Wellness Street, Cityville</li>
+                    <li>Phone: (555) 123-4567</li>
+                    <li>Email: info@yourwellnesscompany.com</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
