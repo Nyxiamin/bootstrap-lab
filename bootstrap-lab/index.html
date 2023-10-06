@@ -26,10 +26,10 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Wellness Tracker</a></li>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Meet the Team</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#principles">Our principles</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -55,7 +55,7 @@
         </section>
 
         <!--P1 Q3. A section to create 3 separate div elements, each div has 4 contents: -->
-        <section class="feature-section">
+        <section id="features" class="feature-section">
             <!-- Feature 1: Exercise Tracking -->
             <div class="feature">
                 <!--a. A Symbol (Icon image)-->
@@ -110,15 +110,15 @@
         </section>
 
         <!--P1 Q5. A section for a people, employees, students, or any group relevant to your website content -->
-        <h2 class="people-headline"> Our Team </h2>
+        <h2 class="people-headline" id="team"> Our Team </h2>
         <!--a. 4 div for 4 people-->
         <section class="people-section">
             <!-- Person 1 -->
             <div class="person">
                 <!--b. Each div has an image with a heading and a short paragraph-->
                 <img src="assets/images/person1.jpg" alt="Person 1">
-                <h3>John Doe</h3>
-                <p>Passionate fitness enthusiast and wellness advocate. John is dedicated to promoting a healthy and active lifestyle. Join him on the path to well-being!</p>
+                <h3>Joanne Doe</h3>
+                <p>Passionate fitness enthusiast and wellness advocate. Joanne is dedicated to promoting a healthy and active lifestyle. Join her on the path to well-being!</p>
             </div>
 
             <!-- Person 2 -->
@@ -144,11 +144,11 @@
         </section>
 
          <!--P3 Q1. Add carousel content with navigation lines and left/right arrows -->
-         <div id="carouselExample" class="carousel slide" data-ride="carousel">
+         <div id="principles" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
-                <li data-target="#carouselExample" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExample" data-slide-to="1"></li>
-                <li data-target="#carouselExample" data-slide-to="2"></li>
+                <li data-target="#principles" data-slide-to="0" class="active"></li>
+                <li data-target="#principles" data-slide-to="1"></li>
+                <li data-target="#principles" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <!-- Carousel Item 1: Sport -->
@@ -178,11 +178,11 @@
                     </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#principles" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#principles" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
@@ -263,7 +263,7 @@
         </div>
 
         <!--P5 Q1. Add Contact Section with 2 div elements: -->
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <!-- a. Div1: Using Form content with any number of fields or controls you like -->
             <div class="contact-form">
                 <h2>Contact Us</h2>
